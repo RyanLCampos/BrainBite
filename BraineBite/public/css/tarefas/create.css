@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(27,29,52);
+    background: linear-gradient(97deg, rgba(27,29,52,1) 9%, rgba(65,18,104,1) 46%, rgba(125,48,189,1) 93%);
+    background-size:cover;
+    height: 100vh;
+    padding: 0;
+    
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #411268;
+    font-family: 'Jost', sans-serif;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #411268;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #0c92d5;
+}
+
+.label-float label{
+    color: #411268;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    margin-top: 0px;
+    transition: all .3s ease-out;
+}
+
+
+
+button{
+    background-color: transparent;
+    border-color: #411268;
+    color: #411268;
+    padding: 7px;
+    font-weight: bold;
+    width: 80%;
+    font-size: 12pt;
+    margin: 20px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+}
+
+button:hover{
+    background-color: #0c92d5;
+    color: #fff;
+    border-color: #0c92d5;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p{
+    color: #411268;
+    font-size: 14pt;
+    text-align: center;
+}
+
+a{
+    color: #411268;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    font-family: 'Jost', sans-serif;
+}
+
+a:hover{
+    color: #0c92d5;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #411268;
+    outline: none;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    /* adicione outros estilos desejados aqui */
+}
+
+.select-estiloso label{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #411268;
+
+    margin-top: 0px;
+    transition: all .3s ease-out;
+}
+
+.disciplina-select {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+.disciplina-select label {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #411268;
+
+    margin-top: 0px;
+    transition: all .3s ease-out;
+
+}
+
+.texto label {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #411268;
+
+    margin-top: 0px;
+    transition: all .3s ease-out;
+}
+
+textarea {
+    
+    border: 2px solid #411268;
+    background: none;
+    outline: none;
+    resize: none;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+}
+
+.disciplina-select [type="text"] {
+    border: 2px solid #411268;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    resize: none;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Jost', sans-serif;
+}
+
+label {
+    font-family: 'Jost', sans-serif;
+
+}
