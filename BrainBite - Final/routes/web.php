@@ -75,8 +75,9 @@ Route::middleware('auth')->group(function () {
   Route::delete('/eventos/{id}', [EventoController::class, 'destroy'])->name('eventos.destroy');
 });
 
-Route::get('/', [LoginController::class, 'mostrarFormLogin'])->name('login');
-Route::post('/', [LoginController::class, 'auth'])->name('login.auth');
+Route::get('/', [LandingPageController::class, 'index'])->name('landingpage');
+Route::get('/login', [LoginController::class, 'mostrarFormLogin'])->name('login');
+Route::post('/login', [LoginController::class, 'auth'])->name('login.auth');
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::get('/cadastro', [CadastroController::class, 'mostrarFormCadastro'])->name('cadastro');
