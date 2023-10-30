@@ -11,6 +11,7 @@ use App\Http\Controllers\CalendarioController;
 use App\Http\Controllers\HorarioController;
 use App\Http\Controllers\EventoController;
 use App\Http\Controllers\AnotacaoController;
+use App\Http\Controllers\LandingPageController;
 
 Route::middleware('auth')->group(function () {
 
